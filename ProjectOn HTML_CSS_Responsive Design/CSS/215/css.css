@@ -1,0 +1,18 @@
+@font-face {
+	font-family: Arvo;
+	src: local("Arvo Bold"), local("Arvo-Bold"), url(http://fonts.gstatic.com/s/arvo/v7/yhrAT4vEkZxEF_O3V7wpSQ.eot) format("embedded-opentype"), url(http://fonts.gstatic.com/s/arvo/v7/0Aa8aBJcGN1n1zDNhqNrnQ.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Open Sans;
+	src: local("Open Sans"), local("OpenSans"), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot) format("embedded-opentype"), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Open Sans;
+	src: local("Open Sans Italic"), local("OpenSans-Italic"), url(http://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBmfQcKutQXcIrRfyR5jdjY8.eot) format("embedded-opentype"), url(http://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}

@@ -1,0 +1,777 @@
+html {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+body {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+div {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+span {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+object {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+h1 {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+h2 {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+h3 {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+h4 {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+h5 {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+h6 {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+p {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+a {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+abbr {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+acronym {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+em {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+img {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+ol {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+ul {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+li {
+	margin: 0px; padding: 0px; border: 0px currentColor; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; vertical-align: baseline;
+}
+* {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+html {
+	background: 0% 0% / 22em rgb(250, 243, 230); -ms-overflow-y: auto;
+}
+body {
+	font: 112.5%/1.3 "ltc-bodoni-175", serif; color: rgb(63, 61, 58); overflow: hidden; font-size-adjust: none; font-stretch: normal;
+}
+body::before {
+	width: 0px; height: 0px; display: block; content: "";
+}
+body::after {
+	width: 0px; height: 0px; display: block; content: "";
+}
+body::before {
+	background: url("img-halftone.png") rgb(247, 100, 77); margin: 0px auto -45px; border-top-color: transparent; border-right-color: rgb(250, 243, 230); border-left-color: rgb(250, 243, 230); border-top-width: 45px; border-right-width: 45px; border-left-width: 45px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+body::after {
+	background: url("img-halftone.png") rgb(255, 177, 77); margin: -10em auto 0px; border-right-color: rgb(250, 243, 230); border-bottom-color: transparent; border-left-color: rgb(250, 243, 230); border-right-width: 7em; border-bottom-width: 10em; border-left-width: 7em; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.page-wrapper {
+	margin: 0.25em auto; padding: 0px 4%; width: 100%; position: relative; max-width: 1800px;
+}
+.page-wrapper::before {
+	background: url("img-lg-horiz-border.png") repeat-x 0px -2px / 40em; height: 20px; display: block; content: "";
+}
+.page-wrapper::after {
+	clear: both; display: table; content: "";
+}
+h1 {
+	text-align: center; color: rgb(39, 38, 37); text-transform: uppercase;
+}
+h2 {
+	text-align: center; color: rgb(39, 38, 37); text-transform: uppercase;
+}
+h3 {
+	text-align: center; color: rgb(39, 38, 37); text-transform: uppercase;
+}
+h4 {
+	text-align: center; color: rgb(39, 38, 37); text-transform: uppercase;
+}
+h5 {
+	text-align: center; color: rgb(39, 38, 37); text-transform: uppercase;
+}
+a {
+	color: rgb(229, 69, 44);
+}
+a:hover {
+	color: rgb(63, 61, 58);
+}
+a:focus {
+	color: rgb(63, 61, 58);
+}
+p {
+	margin-bottom: 0.15em;
+}
+.intro {
+	padding-top: 2em; clear: both;
+}
+.intro p {
+	margin: 0px auto 1em;
+}
+.summary p:nth-child(2) {
+	font-style: italic;
+}
+.summary a {
+	display: inline-block;
+}
+.intro h1 {
+	text-transform: capitalize; line-height: 1; letter-spacing: 0.05em; font-size: 3em; font-style: italic; font-weight: 400;
+}
+.intro h1::before {
+	background: url("img-sprite.png") no-repeat center 0.25em / 25rem; text-transform: uppercase; letter-spacing: 0.1rem; font-family: "refrigerator-deluxe",sans-serif; font-size: 1.12rem; font-style: normal; font-weight: 700; margin-bottom: 1.3em; display: block; content: "Dr. Shea\2019s Miraculous";
+}
+.intro h2 {
+	background: url("img-bottle.png") no-repeat center 0.75em / 1.45em; line-height: 1.27em; letter-spacing: 0.05rem; padding-top: 4.5em; font-family: "french-clarendon-ornamented",sans-serif; font-size: 2.25em; font-weight: 400; margin-top: 0.1em; margin-bottom: 0em;
+}
+.preamble {
+	margin: 0px auto 1em;
+}
+.preamble p {
+	margin-bottom: 0.15em;
+}
+.preamble h3 {
+	background-position: right top, left bottom; margin: 0.5em auto 0.55em; padding: 0.5em 0px 0.55em; line-height: 1; font-family: "grecian-light-face",sans-serif; font-size: 1.5em; background-image: url("img-lg-horiz-border.png"), url("img-lg-horiz-border.png"); background-attachment: scroll, scroll; background-repeat: repeat-x, repeat-x; background-size: 13em; background-origin: padding-box, padding-box; background-clip: border-box, border-box; background-color: transparent;
+}
+.preamble p::first-line {
+	text-transform: uppercase;
+}
+.preamble p:nth-child(n+3) {
+	text-indent: 1.5em;
+}
+.preamble p:nth-child(n+3)::first-line {
+	text-transform: none;
+}
+.design-selection h3 {
+	background-position: right top, left bottom; margin: 0.35em auto 0.75em; padding: 0.5em 0px; line-height: 1; letter-spacing: 0.05em; font-family: "refrigerator-deluxe",sans-serif; font-size: 2em; background-image: url("img-lg-horiz-border.png"), url("img-lg-horiz-border.png"); background-attachment: scroll, scroll; background-repeat: repeat-x, repeat-x; background-size: 15em; background-origin: padding-box, padding-box; background-clip: border-box, border-box; background-color: transparent;
+}
+.design-selection {
+	margin: 0px auto;
+}
+.design-selection ul {
+	padding: 0px; list-style-type: none; -ms-overflow-x: hidden;
+}
+.design-selection li {
+	color: transparent; clear: both; margin-bottom: 0.28em;
+}
+.design-selection li a {
+	color: rgb(63, 61, 58); text-decoration: none;
+}
+.sidebar a:hover {
+	color: rgb(229, 69, 44);
+}
+sidebar a:focus {
+	color: rgb(229, 69, 44);
+}
+.design-name {
+	background: rgb(250, 243, 230); padding-right: 0.25em; font-style: italic;
+}
+.design-name::after {
+	width: 0px; color: rgb(63, 61, 58); float: left; white-space: nowrap; content: ".....................................................................................................................";
+}
+.designer-name {
+	background: rgb(250, 243, 230); text-transform: uppercase; padding-left: 0.25em; font-family: "refrigerator-deluxe",sans-serif; font-size: 1em; float: right;
+}
+h3.archives {
+	display: none;
+}
+h3.resources {
+	display: none;
+}
+.design-archives {
+	margin: 0.8em auto; position: relative;
+}
+.design-archives ul {
+	background-position: right top, left bottom; padding: 1.25em 0px; list-style-type: none; background-image: url("img-lg-horiz-border.png"), url("img-lg-horiz-border.png"); background-attachment: scroll, scroll; background-repeat: repeat-x, repeat-x; background-size: 36em; background-origin: padding-box, padding-box; background-clip: border-box, border-box; background-color: transparent;
+}
+.design-archives .viewall {
+	text-align: center; text-transform: uppercase; letter-spacing: 0.02em; font-size: 1.12em; font-style: italic;
+}
+.design-archives .previous a {
+	transition:margin 0.1s ease-out; width: 2em; height: 1.25em; color: rgb(63, 61, 58); text-indent: -9999px; overflow: hidden; text-decoration: none; white-space: nowrap; position: absolute; -webkit-transition: margin ease-out 0.1s; -moz-transition: margin ease-out 0.1s; -o-transition: margin ease-out 0.1s;
+}
+.design-archives .next a {
+	transition:margin 0.1s ease-out; width: 2em; height: 1.25em; color: rgb(63, 61, 58); text-indent: -9999px; overflow: hidden; text-decoration: none; white-space: nowrap; position: absolute; -webkit-transition: margin ease-out 0.1s; -moz-transition: margin ease-out 0.1s; -o-transition: margin ease-out 0.1s;
+}
+.design-archives .next a:hover {
+	margin-right: -4px;
+}
+.design-archives .next a:focus {
+	margin-right: -4px;
+}
+.design-archives .previous a:hover {
+	margin-left: -4px;
+}
+.design-archives .previous a:focus {
+	margin-left: -4px;
+}
+.viewall a {
+	color: rgb(63, 61, 58); text-decoration: none;
+}
+.zen-resources a {
+	color: rgb(63, 61, 58); text-decoration: none;
+}
+.design-archives .next a {
+	background: url("img-sprite.png") no-repeat right bottom / 20em; right: 0px;
+}
+.design-archives .previous a {
+	background: url("img-sprite.png") no-repeat left bottom / 20em; left: 0px;
+}
+.sidebar .wrapper {
+	background: url("img-lg-horiz-border.png") repeat-x left bottom / 40em; margin: 0px 2px -1px;
+}
+.zen-resources {
+	background: url("img-pointer-guy-sm.png") no-repeat 28% 95% / 5em; overflow: hidden;
+}
+.zen-resources::after {
+	margin: 0px auto; width: 9em; height: 9em; display: block; position: relative; z-index: -1; content: "";
+}
+.zen-resources ul::after {
+	margin: 0px auto; width: 9em; height: 9em; display: block; position: relative; z-index: -1; content: "";
+}
+.zen-resources::after {
+	background: url("img-halftone.png") rgb(255, 177, 77); margin-top: 9em; transform: rotate(45deg) translateY(5.25em) translateX(2.75em); -webkit-transform: rotate(45deg) translateY(5.25em) translateX(2.75em); -moz-transform: rotate(45deg) translateY(5.25em) translateX(2.75em); -o-transform: rotate(45deg) translateY(5.25em) translateX(2.75em);
+}
+.zen-resources ul::after {
+	background: url("img-halftone.png") rgb(186, 209, 194); margin-top: 3.5em; margin-bottom: -21.5em; transform: rotate(45deg) translateY(0.2em) translateX(3em); -webkit-transform: rotate(45deg) translateY(0.2em) translateX(3em); -moz-transform: rotate(45deg) translateY(0.2em) translateX(3em); -o-transform: rotate(45deg) translateY(0.2em) translateX(3em);
+}
+.zen-resources ul {
+	margin: 0px auto; text-align: center; text-transform: uppercase; font-family: "refrigerator-deluxe",sans-serif; list-style-type: none;
+}
+.zen-resources li {
+	text-align: center; line-height: 1.6; display: block;
+}
+.explanation {
+	background: rgb(250, 243, 230); margin: 0px auto; padding: 1.75em 0px 0px; position: relative;
+}
+.explanation p::first-line {
+	text-transform: uppercase;
+}
+.participation p::first-line {
+	text-transform: uppercase;
+}
+.benefits p::first-line {
+	text-transform: uppercase;
+}
+.explanation p:nth-child(n+3)::first-line {
+	text-transform: none;
+}
+.participation p:nth-child(n+3)::first-line {
+	text-transform: none;
+}
+.benefits p:nth-child(n+3)::first-line {
+	text-transform: none;
+}
+.explanation h3 {
+	width: 100%; text-align: center; letter-spacing: 0.03em; padding-bottom: 1.75rem; font-size: 2.15em; font-style: italic;
+}
+.explanation p:nth-child(n+3) {
+	text-indent: 1.5em;
+}
+.participation {
+	background: url("img-lg-horiz-border.png") repeat-x left top / 40em; margin: 3em 2px 0px; padding: 1.5em 0px 0.5em;
+}
+.participation h3 {
+	background: url("img-sprite.png") no-repeat center / 9em; letter-spacing: 0.02em; padding-bottom: 1rem; font-family: "refrigerator-deluxe",sans-serif; font-size: 2.5em;
+}
+.participation p {
+	margin: 0px auto;
+}
+.participation p:nth-child(2) {
+	background: url("img-lg-horiz-border.png") repeat-x left top / 44em; padding-top: 2em;
+}
+.participation p:nth-child(n+3) {
+	text-indent: 1.5em;
+}
+.benefits {
+	background: url("img-lg-horiz-border.png") repeat-x bottom / 45em; margin: 0px 2px; padding: 1em 0px 20em; position: relative;
+}
+.benefits p:last-child {
+	background: url("img-lg-horiz-border.png") repeat-x left bottom / 44em; padding-bottom: 1em;
+}
+.benefits h3 {
+	background-position: top, left bottom; margin: 0em auto 0.5em; padding: 0.25em 0px; font-family: "grecian-light-face",sans-serif; font-size: 2.65em; background-image: url("img-lg-horiz-border.png"), url("img-lg-horiz-border.png"); background-attachment: scroll, scroll; background-repeat: repeat-x, repeat-x; background-size: 12em; background-origin: padding-box, padding-box; background-clip: border-box, border-box; background-color: transparent;
+}
+.benefits p {
+	margin: 0px auto;
+}
+.benefits::before {
+	width: 100%; text-align: center; bottom: 3.5rem; text-transform: uppercase; letter-spacing: 0.03em; padding-bottom: 14.35rem; font-family: "french-clarendon-ornamented",sans-serif; font-size: 3em; position: absolute; content: "Apply Liberally";
+}
+.benefits::after {
+	width: 100%; text-align: center; bottom: -13rem; text-transform: uppercase; letter-spacing: 0.03em; padding-bottom: 14.35rem; font-family: "french-clarendon-ornamented",sans-serif; font-size: 3em; position: absolute; content: "And Regularly!";
+}
+.benefits p::after {
+	background: url("img-look-right-sm.png") no-repeat center 7.75rem / 8.5rem; margin: 0px auto -26em; width: 100%; height: 26em; padding-bottom: 2em; display: block; content: "";
+}
+.requirements h3 {
+	background: url("img-lg-horiz-border.png") repeat-x left bottom / 16em; top: 0.1em; width: 100%; text-align: center; letter-spacing: 0.02em; padding-bottom: 1rem; font-family: "refrigerator-deluxe",sans-serif; font-size: 2.75em; margin-bottom: 0.72em; display: block; position: absolute;
+}
+.requirements {
+	background: url("img-lg-horiz-border.png") repeat-x left bottom / 46em; margin: 0px auto 4.15em; padding: 6.5em 0px 2em; position: relative;
+}
+.requirements p:nth-child(n+3) {
+	text-indent: 1.5em;
+}
+.requirements p:last-child {
+	left: 0px; width: 100%; text-align: center; bottom: -2em; text-indent: 0px; font-style: italic; margin-bottom: -2.75em; position: absolute;
+}
+footer::after {
+	background: url("img-lookup.png") no-repeat center / 10em; margin: 0px auto -13.5em; width: 100%; height: 15em; display: block; content: "";
+}
+footer {
+	background: url("img-lg-horiz-border.png") repeat-x left bottom / 40em; margin: 5.5em 1px -1px; text-align: center; text-transform: uppercase; padding-bottom: 8.5em; font-family: "refrigerator-deluxe",sans-serif; font-size: 1.15em;
+}
+footer a {
+	background: rgb(39, 38, 37); margin: 0px 0.15em; padding: 0.15rem 0.5rem; color: rgb(250, 243, 230); letter-spacing: 0.05em; text-decoration: none;
+}
+footer a:hover {
+	background-color: rgb(229, 69, 44);
+}
+footer a:focus {
+	background-color: rgb(229, 69, 44);
+}
+@media all and (min-width:600px)
+{
+body {
+	line-height: 1.6; font-size: 1.12em;
+}
+.intro p {
+	max-width: 30rem;
+}
+.preamble {
+	max-width: 30rem;
+}
+.design-selection {
+	max-width: 30rem;
+}
+.design-selection ul {
+	max-width: 30rem;
+}
+.design-archives {
+	max-width: 30rem;
+}
+.zen-resources ul {
+	max-width: 30rem;
+}
+.participation p {
+	max-width: 30rem;
+}
+.benefits h3 {
+	max-width: 30rem;
+}
+.benefits p {
+	max-width: 30rem;
+}
+.explanation {
+	max-width: 30rem;
+}
+.requirements {
+	max-width: 30rem;
+}
+body::before {
+	margin: 0px auto -5em; border-top-color: transparent; border-right-color: rgb(250, 243, 230); border-left-color: rgb(250, 243, 230); border-top-width: 89px; border-right-width: 89px; border-left-width: 89px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+body::after {
+	margin: -14.5em auto 0px; border-right-color: rgb(250, 243, 230); border-bottom-color: transparent; border-left-color: rgb(250, 243, 230); border-right-width: 11em; border-bottom-width: 14.5em; border-left-width: 11em; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: relative; z-index: -2;
+}
+.page-wrapper {
+	background-position: left top, right 100px; margin: 0.5em auto; padding: 0px 2px; width: 99%; background-image: url("img-lg-vert-border.png"), url("img-lg-vert-border.png"); background-attachment: scroll, scroll; background-repeat: repeat-y, repeat-y; background-size: 0.75em; background-origin: padding-box, padding-box; background-clip: border-box, border-box; background-color: transparent;
+}
+.page-wrapper::before {
+	background-size: 50em;
+}
+.intro {
+	padding-top: 7em;
+}
+.intro h1 {
+	margin: 0px auto; line-height: 1; font-size: 5.25em; max-width: 94%;
+}
+.intro h1::before {
+	background: url("img-sprite.png") no-repeat center 0.2em / 38rem; letter-spacing: 0.17rem; font-size: 0.25em; font-weight: 700; margin-bottom: 1.2em;
+}
+.intro h2 {
+	background: url("img-bottle.png") no-repeat top / 1.65em; line-height: 1.27em; padding-top: 4.25em; font-size: 3.75em; margin-top: 0.85em; margin-bottom: 0em;
+}
+.summary p:nth-child(2) {
+	text-align: center;
+}
+.preamble h3 {
+	font-size: 2.5em;
+}
+.preamble h3::first-line {
+	margin: 0px auto; line-height: 1.25; letter-spacing: 0.02em; font-family: "refrigerator-deluxe",sans-serif; font-size: 1.1em; display: inline-block;
+}
+.design-selection h3 {
+	padding: 0.75em 0px; letter-spacing: 0.05em; font-size: 2.6em;
+}
+.design-archives .viewall {
+	font-size: 1.8em;
+}
+.design-archives .previous a {
+	width: 4em; height: 2.4em;
+}
+.design-archives .next a {
+	width: 4em; height: 2.4em;
+}
+.design-archives .next a {
+	background: url("img-sprite.png") no-repeat right bottom / 35em;
+}
+.design-archives .previous a {
+	background: url("img-sprite.png") no-repeat left bottom / 35em;
+}
+.zen-resources::after {
+	width: 24em; height: 24em;
+}
+.zen-resources ul::after {
+	width: 24em; height: 24em;
+}
+.zen-resources {
+	background: url("img-pointer-guy.png") no-repeat 28% 95%;
+}
+.zen-resources::after {
+	background: url("img-halftone.png") rgb(255, 177, 77); margin-top: 20em; transform: rotate(45deg) translateY(11em) translateX(8.5em); -webkit-transform: rotate(45deg) translateY(11em) translateX(8.5em); -moz-transform: rotate(45deg) translateY(11em) translateX(8.5em); -o-transform: rotate(45deg) translateY(11em) translateX(8.5em);
+}
+.zen-resources ul::after {
+	background: url("img-halftone.png") rgb(186, 209, 194); margin-top: 3em; margin-bottom: -52.5em; transform: rotate(45deg) translateY(4.75em) translateX(9em); -webkit-transform: rotate(45deg) translateY(4.75em) translateX(9em); -moz-transform: rotate(45deg) translateY(4.75em) translateX(9em); -o-transform: rotate(45deg) translateY(4.75em) translateX(9em);
+}
+.zen-resources {
+	background: url("img-pointer-guy.png") no-repeat 43.8% bottom / 13em;
+}
+.zen-resources ul {
+	font-size: 0.88em;
+}
+.zen-resources a {
+	font-size: 1.25em;
+}
+.explanation {
+	background: rgb(250, 243, 230); margin: 1px auto 0px; padding: 10.75em 0px 0.5em; width: 84%; position: relative;
+}
+.explanation h3 {
+	top: 1em; width: 100%; text-align: center; line-height: 1; letter-spacing: 0.03em; font-size: 3em; font-style: italic; display: block; position: absolute;
+}
+.explanation p {
+	line-height: 1.475;
+}
+.participation {
+	background-size: 48em;
+}
+.participation h3 {
+	font-size: 3.25em; background-size: 8em;
+}
+.participation p:nth-child(2) {
+	padding-top: 2em;
+}
+.participation p:nth-child(n+3) {
+	text-indent: 1.5em;
+}
+.benefits {
+	padding: 1em 0px 24em;
+}
+.benefits h3 {
+	font-size: 3em;
+}
+.benefits::before {
+	bottom: 5.5rem;
+}
+.benefits::after {
+	bottom: -13rem;
+}
+.benefits p::after {
+	background: url("img-look-right.png") no-repeat center / 32%; margin: 0px auto -26em; width: 100%; height: 25em; padding-bottom: 2em; display: block; content: "";
+}
+.requirements {
+	margin: 0px auto 4.15em; padding: 11.5em 0px 2.5em; width: 84%;
+}
+.requirements h3 {
+	padding-bottom: 1.5rem; font-size: 4.5em; margin-bottom: 0.72em; background-size: 10em;
+}
+footer {
+	padding-bottom: 14em;
+}
+footer::after {
+	background: url("img-lookup.png") no-repeat bottom / 15em;
+}
+.participation h3::before {
+	color: rgb(63, 61, 58); text-transform: lowercase; letter-spacing: 0px; font-family: "ltc-bodoni-175",serif; font-size: 1.12rem; font-style: italic; position: absolute;
+}
+.participation h3::after {
+	color: rgb(63, 61, 58); text-transform: lowercase; letter-spacing: 0px; font-family: "ltc-bodoni-175",serif; font-size: 1.12rem; font-style: italic; position: absolute;
+}
+.participation h3::after {
+	top: 1.1em; right: 1.6em; content: "5.23 fl oz";
+}
+.participation h3::before {
+	left: 1.6em; top: 1.1em; content: "no. 218";
+}
+}
+@media all and (min-width:800px)
+{
+body {
+	font-size: 1.18em;
+}
+.intro {
+	padding-top: 8em;
+}
+.intro p {
+	max-width: 36rem;
+}
+.preamble {
+	max-width: 36rem;
+}
+.design-selection {
+	max-width: 36rem;
+}
+.design-selection ul {
+	max-width: 36rem;
+}
+.design-archives {
+	max-width: 36rem;
+}
+.zen-resources ul {
+	max-width: 36rem;
+}
+.participation p {
+	max-width: 36rem;
+}
+.benefits h3 {
+	max-width: 36rem;
+}
+.benefits p {
+	max-width: 36rem;
+}
+.explanation {
+	max-width: 36rem;
+}
+.requirements {
+	max-width: 36rem;
+}
+body::before {
+	margin: 0px auto -6em; border-top-color: transparent; border-right-color: rgb(250, 243, 230); border-left-color: rgb(250, 243, 230); border-top-width: 115px; border-right-width: 115px; border-left-width: 115px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+.intro h1 {
+	font-size: 5.65em;
+}
+.intro h1::before {
+	background: url("img-sprite.png") no-repeat center 0.25em / 42rem; letter-spacing: 0.17rem; font-size: 2rem; font-weight: 700; margin-bottom: 1em;
+}
+.intro h2 {
+	padding-top: 4.5em; margin-top: 0.7em; margin-bottom: 0em; background-size: 1.75em;
+}
+.preamble h3 {
+	font-size: 3em;
+}
+.zen-resources li {
+	text-align: left; display: inline-block;
+}
+.zen-resources li a {
+	margin: 0px 0.75em;
+}
+.zen-resources li:first-child a {
+	margin-left: 0px;
+}
+.zen-resources li:last-child a {
+	margin-right: 0px;
+}
+.zen-resources a {
+	font-size: 1em;
+}
+.explanation {
+	background: rgb(250, 243, 230); margin: 1px auto 0px; padding: 13.75em 0px 0.5em; width: 84%; position: relative; column-count: 2; column-gap: 2em; -webkit-column-count: 2; -webkit-column-gap: 2em; -moz-column-count: 2; -moz-column-gap: 2em; -o-column-count: 2; -o-column-gap: 2em;
+}
+.explanation h3 {
+	width: 100%; text-align: center; font-size: 3.9em; font-style: italic; display: block;
+}
+.participation h3 {
+	font-size: 5.25em; background-size: 9em;
+}
+.benefits::before {
+	bottom: 6.5rem;
+}
+.benefits::after {
+	bottom: -12.5rem;
+}
+.benefits p::after {
+	background: url("img-look-right.png") no-repeat center 40% / 28%; margin: 0px auto -30.5em; width: 100%; height: 26em; padding-bottom: 6em; display: block; content: "";
+}
+.benefits h3 {
+	font-size: 3.75em;
+}
+.requirements {
+	margin: 0px auto 4.15em; padding: 11.5em 0px 2.5em; width: 84%; line-height: 1.475; column-count: 2; column-gap: 2em; background-size: 68rem; -webkit-column-count: 2; -webkit-column-gap: 2em; -moz-column-count: 2; -moz-column-gap: 2em; -o-column-count: 2; -o-column-gap: 2em;
+}
+.requirements h3 {
+	padding-bottom: 1.5rem; font-size: 5.5em; margin-bottom: 0.72em; background-size: 8em;
+}
+.zen-github::after {
+	font-size: 1.12rem;
+}
+.zen-validate-html::after {
+	font-size: 1.12rem;
+}
+}
+@media all and (min-width:1050px)
+{
+body {
+	font-size: 1.25em;
+}
+.intro {
+	padding-top: 9em;
+}
+.intro p {
+	max-width: 40rem;
+}
+.preamble {
+	max-width: 40rem;
+}
+.design-selection {
+	max-width: 40rem;
+}
+.design-selection ul {
+	max-width: 40rem;
+}
+.design-archives {
+	max-width: 40rem;
+}
+.zen-resources ul {
+	max-width: 40rem;
+}
+.participation p {
+	max-width: 40rem;
+}
+.benefits h3 {
+	max-width: 40rem;
+}
+.benefits p {
+	max-width: 40rem;
+}
+body::before {
+	margin: 0px auto -7em; border-top-color: transparent; border-right-color: rgb(250, 243, 230); border-left-color: rgb(250, 243, 230); border-top-width: 140px; border-right-width: 140px; border-left-width: 140px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+.intro h1 {
+	font-size: 6em;
+}
+.preamble h3:first-child {
+	font-size: 3em;
+}
+.explanation h3 {
+	top: 1em;
+}
+.benefits::before {
+	padding: 0px 3%; top: 64.25%; width: auto; height: 0px; font-size: 3.7em;
+}
+.benefits::after {
+	padding: 0px 3%; top: 64.25%; width: auto; height: 0px; font-size: 3.7em;
+}
+.benefits::before {
+	right: 63%;
+}
+.benefits::after {
+	left: 63%;
+}
+.benefits p::after {
+	background: url("img-look-right.png") no-repeat center / 42%; margin: 0px auto -26em; width: 100%; height: 26em; padding-bottom: 2em; display: block; content: "";
+}
+.explanation {
+	max-width: 60em;
+}
+.requirements {
+	max-width: 60em;
+}
+.explanation {
+	padding: 9em 0px 0.5em;
+}
+.explanation h3 {
+	font-size: 3.3em;
+}
+.requirements {
+	column-count: 3; -webkit-column-count: 3; -moz-column-count: 3; -o-column-count: 3;
+}
+.requirements p:last-child {
+	margin-bottom: -1.2rem;
+}
+footer {
+	margin-top: 0px;
+}
+}
+@media all and (min-width:1200px)
+{
+body {
+	font-size: 1.31em;
+}
+.intro {
+	padding-top: 10.5em;
+}
+body::before {
+	margin: 0px auto -8em; border-top-color: transparent; border-right-color: rgb(250, 243, 230); border-left-color: rgb(250, 243, 230); border-top-width: 168px; border-right-width: 168px; border-left-width: 168px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+.intro h1 {
+	font-size: 7em;
+}
+.intro h1::before {
+	background: url("img-sprite.png") no-repeat center 0.3em / 56rem; font-size: 2.75rem;
+}
+.intro h2 {
+	padding-top: 5em; background-size: 1.85em;
+}
+.benefits::before {
+	right: 60%;
+}
+.benefits::after {
+	left: 60%;
+}
+.explanation {
+	padding: 10.5em 0px 0.5em;
+}
+.explanation h3 {
+	font-size: 3.7em;
+}
+}
+@media all and (min-width:1300px)
+{
+body {
+	font-size: 1.37em;
+}
+.intro {
+	padding-top: 13.5em;
+}
+body::before {
+	margin: 0px auto -9em; border-top-color: transparent; border-right-color: rgb(250, 243, 230); border-left-color: rgb(250, 243, 230); border-top-width: 198px; border-right-width: 198px; border-left-width: 198px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+.intro h1 {
+	line-height: 1.4; font-size: 7.35em;
+}
+.intro h1::before {
+	background: url("img-sprite.png") no-repeat center 0.5em / 58rem; margin-bottom: 0px;
+}
+.benefits::before {
+	right: 58.5%;
+}
+.benefits::after {
+	left: 58.5%;
+}
+}
+.page-wrapper {
+	display: -ms-flexbox; -ms-flex-direction: column; -moz-box-orient: vertical; -webkit-box-orient: vertical; -ms-box-orient: vertical; -webkit-flex-direction: column; flex-direction: column;
+}
+.intro {
+	width: 100%; -ms-flex-order: 1; -webkit-box-ordinal-group: 1; -moz-box-ordinal-group: 1; -webkit-order: 1; order: 1; align-self: flex-start;
+}
+.main {
+	width: 100%; -ms-flex-order: 3; -webkit-box-ordinal-group: 3; -moz-box-ordinal-group: 3; -webkit-order: 3; order: 3; align-self: flex-start;
+}
+.sidebar {
+	-ms-flex-order: 2; -webkit-box-ordinal-group: 2; -moz-box-ordinal-group: 2; -webkit-order: 2; order: 2;
+}

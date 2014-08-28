@@ -1,0 +1,1118 @@
+@import url( http://fonts.googleapis.com/css?family=Ultra|Montserrat:700 );
+body {
+	margin: 0px; padding: 0px; line-height: 1.4; font-family: Georgia, serif;
+}
+body {
+	color: rgb(119, 34, 68);
+}
+.preamble h3 {
+	color: rgb(119, 34, 68);
+}
+abbr {
+	border: currentColor;
+}
+h3 {
+	font-size: 1.18em;
+}
+.design-archives a::before {
+	font-size: 1.18em;
+}
+::selection {
+	background: rgb(255, 255, 255); color: rgb(136, 0, 68); text-shadow: none;
+}
+a abbr {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+a:link {
+	color: rgb(136, 0, 68);
+}
+p:hover a abbr {
+	color: rgb(136, 0, 68);
+}
+.sidebar a:link {
+	color: rgb(85, 0, 40);
+}
+.sidebar .designer-name:link {
+	color: rgb(153, 51, 85);
+}
+a:visited {
+	color: rgb(153, 51, 85);
+}
+.sidebar .designer-name:visited {
+	color: rgb(187, 102, 136);
+}
+a:hover {
+	color: rgb(0, 0, 0); text-shadow: 2px 2px 0px rgba(255,255,255,0.51);
+}
+p:hover a:hover abbr {
+	color: rgb(0, 0, 0); text-shadow: 2px 2px 0px rgba(255,255,255,0.51);
+}
+.sidebar a:hover {
+	color: rgb(0, 0, 0); text-shadow: 2px 2px 0px rgba(255,255,255,0.51);
+}
+.sidebar .designer-name:hover {
+	color: rgb(0, 0, 0); text-shadow: 2px 2px 0px rgba(255,255,255,0.51);
+}
+p:hover abbr {
+	color: rgb(0, 0, 0);
+}
+h3:hover abbr {
+	color: rgb(0, 0, 0);
+}
+.summary p:hover abbr {
+	color: rgb(255, 255, 255); text-shadow: none;
+}
+footer a:hover {
+	color: rgb(255, 255, 255); text-shadow: none;
+}
+h1 {
+	font-family: "Ultra", "Arial Black", serif; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased;
+}
+h2 {
+	font-family: "Ultra", "Arial Black", serif; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased;
+}
+h3 {
+	font-family: "Ultra", "Arial Black", serif; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased;
+}
+.design-archives a::before {
+	font-family: "Ultra", "Arial Black", serif; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased;
+}
+footer a {
+	font-family: "Ultra", "Arial Black", serif; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased;
+}
+footer::after {
+	font-family: "Ultra", "Arial Black", serif; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased;
+}
+.supporting p:nth-child(2)::first-letter {
+	font-family: "Ultra", "Arial Black", serif; font-style: normal; font-weight: normal; -webkit-font-smoothing: antialiased;
+}
+a {
+	text-transform: uppercase; font-family: "Montserrat", Verdana, Helvetica, Arial, sans-serif; font-size: 0.87em; font-style: normal; font-weight: bold; text-decoration: none;
+}
+.supporting p:nth-child(2)::first-letter {
+	margin: 0.1em 0.1em 0px -0.2em; color: rgb(136, 0, 68); line-height: 0.8; font-size: 2.8em; float: left; text-shadow: 1px 1px 0px rgba(255,255,255,0.4);
+}
+.benefits p:nth-child(2)::first-letter {
+	margin-left: -0.4em;
+}
+.requirements p:nth-child(2)::first-letter {
+	margin-left: -0.4em;
+}
+h3::before {
+	font-family: Georgia; font-style: italic;
+}
+h3::after {
+	font-family: Georgia; font-style: italic;
+}
+footer::before {
+	font-family: Georgia; font-style: italic;
+}
+footer a {
+	text-transform: lowercase;
+}
+h1 {
+	color: rgb(255, 255, 255);
+}
+h3 {
+	color: rgb(255, 255, 255);
+}
+.supporting h3 {
+	background-color: rgb(136, 0, 68);
+}
+.sidebar h3 {
+	background: rgb(91, 10, 42); color: rgb(255, 255, 255);
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.summary p {
+	font-size: 0.87em;
+}
+.preamble {
+	font-size: 0.87em;
+}
+header[role=banner] {
+	font-size: 30px;
+}
+body {
+	text-align: right; margin-left: 40px; max-width: 540px;
+}
+@media screen and (max-width:420px)
+{
+body {
+	margin-left: 0px;
+}
+}
+.page-wrapper {
+	margin: 0px 0px 0px auto; padding: 30px 0px 0px; text-align: left; position: relative; max-width: 460px; box-shadow: 0px 0px 24px rgba(0,0,0,0.3); -webkit-box-shadow: 0 0 24px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width:580px)
+{
+.page-wrapper {
+	z-index: 3;
+}
+}
+@media screen and (min-width:581px)
+{
+body {
+	text-align: left; max-width: 100%;
+}
+.page-wrapper {
+	margin-left: 80px;
+}
+}
+body {
+	background: url("kiss.jpg") fixed no-repeat 50% top rgb(60, 29, 8);
+}
+.page-wrapper::before {
+	background: url("kiss.jpg") fixed no-repeat 50% top rgb(60, 29, 8);
+}
+.page-wrapper::after {
+	background: url("kiss.jpg") fixed no-repeat 50% top rgb(60, 29, 8);
+}
+.page-wrapper {
+	background: url("kiss_light.jpg") fixed no-repeat 50% top rgb(252, 238, 198);
+}
+.intro::after {
+	background: url("kiss_light.jpg") fixed no-repeat 50% top rgb(252, 238, 198);
+}
+.supporting div {
+	background: url("kiss_light.jpg") fixed no-repeat 50% top rgb(252, 238, 198);
+}
+.supporting footer {
+	background: url("kiss_light.jpg") fixed no-repeat 50% top rgb(252, 238, 198);
+}
+.page-wrapper::before {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; display: block; position: fixed; z-index: -1; content: " ";
+}
+.intro {
+	background: radial-gradient(at center, rgba(239, 239, 239, 1) 0%, rgba(250, 223, 154, 0.4) 100%); border-style: solid; border-color: rgba(250, 223, 154, 0.3); margin: -30px 0px 0px; padding: 86px 0px 26px; transition:0.2s; text-align: center; position: relative; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -o-transition: all .2s ease;
+}
+.intro::after {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: absolute; z-index: -1; content: " ";
+}
+.summary {
+	text-align: center;
+}
+.preamble {
+	text-align: center;
+}
+header[role=banner] {
+	text-align: center;
+}
+.preamble {
+	padding: 0px 20px;
+}
+header[role=banner] {
+	margin: 0px auto; top: -186px; width: 7.1em; position: relative; z-index: 1;
+}
+.summary {
+	padding: 0px 3em 0.1em;
+}
+.summary p:last-child {
+	padding: 0.4em 0.5em; border-top-color: rgba(255, 255, 255, 0.6); border-bottom-color: rgba(255, 255, 255, 0.6); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.summary p {
+	margin-top: 0px; margin-bottom: 0px; position: relative;
+}
+.summary p:first-child {
+	padding: 30px 0.5em 1em; margin-top: 60px;
+}
+.summary p:first-child::before {
+	background: url("heart-and-lips.png") no-repeat 50% top; left: 50%; top: -30px; width: 70px; height: 60px; margin-left: -35px; display: block; position: absolute; content: " ";
+}
+.preamble h3 {
+	background: url("heart-and-lips.png") no-repeat 50% bottom; padding-bottom: 60px;
+}
+.preamble h3::before {
+	display: block;
+}
+.preamble h3::after {
+	display: block;
+}
+.preamble h3::before {
+	content: "when walking on ";
+}
+.preamble h3::after {
+	content: " don’t forget to kiss a stranger.";
+}
+h1 {
+	transition:0.2s ease-out; left: -0.3em; top: 0px; width: 1em; text-align: center; text-transform: uppercase; line-height: 0.8; font-size: 48px; position: fixed; -ms-word-wrap: break-word; text-shadow: 0px 0px 48px rgba(0,0,0,0.3); -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out;
+}
+@media screen and (min-height:650px)
+{
+h1 {
+	font-size: 60px;
+}
+}
+@media screen and (min-height:800px)
+{
+h1 {
+	font-size: 72px;
+}
+}
+@media screen and (min-height:950px)
+{
+h1 {
+	font-size: 96px;
+}
+}
+@media screen and (min-height:1200px)
+{
+h1 {
+	font-size: 108px;
+}
+}
+@media screen and (max-width:480px)
+{
+.intro {
+	z-index: 1;
+}
+h1 {
+	background: rgb(136, 0, 68); padding: 8px 0px; left: 0px; top: -22px; width: auto; right: 0px; font-size: 24px; z-index: 3; box-shadow: 0px 0px 8px #000; -webkit-box-shadow: 0 0 8px #000; -moz-box-shadow: 0 0 8px #000;
+}
+.summary {
+	padding: 0px 0px 0.1em;
+}
+}
+h2 {
+	text-align: center;
+}
+@media screen and (min-width:240px)
+{
+h2 {
+	margin: 0px auto; left: 0px; top: 3em; width: 10em; height: 6em; text-align: left; right: 0px; color: rgb(255, 255, 255); line-height: 2; font-size: 1em; position: absolute; clip: rect(0px, 7.2em, 6em, -0.5em); text-shadow: 0px 0px 4px rgba(68,0,32,0.6);
+}
+h2::before {
+	left: 0px; top: 1em; width: 6.9em; text-align: center; color: rgba(136, 0, 68, 1); font-family: Georgia; font-style: italic; font-weight: bold; position: absolute; z-index: 1; content: "of";
+}
+h2 abbr::before {
+	top: 2em; width: 2.5em; height: 0px; border-top-color: rgba(136, 0, 68, 0.7); border-top-width: 3px; border-top-style: solid; display: block; position: absolute; content: " "; box-shadow: 0px 0px 4px rgba(136,0,68,0.3); -webkit-box-shadow: 0 0 4px rgba(136, 0, 68, 0.3); -moz-box-shadow: 0 0 4px rgba(136, 0, 68, 0.3);
+}
+h2 abbr::after {
+	top: 2em; width: 2.5em; height: 0px; border-top-color: rgba(136, 0, 68, 0.7); border-top-width: 3px; border-top-style: solid; display: block; position: absolute; content: " "; box-shadow: 0px 0px 4px rgba(136,0,68,0.3); -webkit-box-shadow: 0 0 4px rgba(136, 0, 68, 0.3); -moz-box-shadow: 0 0 4px rgba(136, 0, 68, 0.3);
+}
+h2 abbr::before {
+	left: 0.1em;
+}
+h2 abbr::after {
+	right: 3.1em;
+}
+}
+@media screen and (min-width:840px)
+{
+header[role=banner] {
+	position: fixed;
+}
+.summary {
+	position: fixed;
+}
+header[role=banner] {
+	left: 580px; top: -1.7em; height: 9em; right: 0px;
+}
+.intro {
+	padding-top: 36px;
+}
+.summary {
+	padding: 0px 1.2em 10px; left: 580px; right: 0px; bottom: 0px;
+}
+.summary p {
+	font-family: Montserrat; font-size: 0.75em; margin-right: 0px; margin-left: auto; max-width: 26.5em; text-shadow: 1px 1px 0px rgba(68,0,32,0.2);
+}
+.summary p {
+	background: rgba(138, 0, 68, 0.3);
+}
+.summary p:last-child::after {
+	background: rgba(138, 0, 68, 0.3);
+}
+.summary p:first-child {
+	border-top-left-radius: 50%; border-top-right-radius: 50%; -webkit-border-top-left-radius: 50%; -webkit-border-top-right-radius: 50%; -moz-border-radius-topleft: 50%; -moz-border-radius-topright: 50%;
+}
+.summary p:first-child::before {
+	background: url("heart-and-lips.png") no-repeat 50% top, url("kiss.jpg") fixed no-repeat 50% top; border-radius: 50%; top: -35px; -webkit-border-radius: 50%; -moz-border-radius: 50%;
+}
+.summary p:last-child {
+	border-color: rgba(255, 255, 255, 0.3); font-family: Georgia, serif; font-style: italic;
+}
+.summary p:last-child::after {
+	left: 0px; height: 11px; right: 0px; bottom: -12px; display: block; position: absolute; content: " ";
+}
+.summary {
+	color: rgb(255, 255, 255);
+}
+.summary a {
+	color: rgb(255, 255, 255);
+}
+}
+@media screen and (min-width:960px)
+{
+.intro {
+	border-width: 2px; margin: 0px -52px 30px; padding: 36px 100px;
+}
+.intro::before {
+	border: 2px solid rgba(250, 223, 154, 0.4); left: -16px; top: -16px; right: -16px; bottom: -16px; position: absolute; content: " ";
+}
+.intro {
+	border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%;
+}
+.intro::before {
+	border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%;
+}
+.intro::after {
+	left: 50px; top: -34px; right: 50px; bottom: -32px;
+}
+.intro div:last-child p:last-child {
+	margin: 0px 0px 3em;
+}
+header[role=banner] {
+	width: auto;
+}
+h2 {
+	left: auto; right: -0.3em;
+}
+}
+@media screen and (max-width:480px), screen and (max-device-width:480px)
+{
+.intro {
+	padding-top: 120px;
+}
+header[role=banner] {
+	top: -6.5em; font-size: 24px;
+}
+}
+@media screen and (min-width:1201px)
+{
+body {
+	background-size: 100%;
+}
+.page-wrapper {
+	background-size: 100%;
+}
+.page-wrapper::before {
+	background-size: 100%;
+}
+.page-wrapper::after {
+	background-size: 100%;
+}
+.intro::after {
+	background-size: 100%;
+}
+.supporting div {
+	background-size: 100%;
+}
+.supporting footer {
+	background-size: 100%;
+}
+.summary p:first-child::before {
+	background-size: auto, 100%;
+}
+}
+@media screen and (max-width:960px) and (min-width:580px)
+{
+body {
+	background-position: 25% top;
+}
+.page-wrapper {
+	background-position: 25% top;
+}
+.page-wrapper::before {
+	background-position: 25% top;
+}
+.page-wrapper::after {
+	background-position: 25% top;
+}
+.intro::after {
+	background-position: 25% top;
+}
+.supporting div {
+	background-position: 25% top;
+}
+.supporting footer {
+	background-position: 25% top;
+}
+.summary p:first-child::before {
+	background-position: 50% top, 25% top;
+}
+}
+@media screen and (max-device-width:1024px)
+{
+.intro::after {
+	
+}
+.intro {
+	background: rgba(250, 223, 154, 0.6);
+}
+.supporting > div {
+	background: rgba(250, 223, 154, 0.6);
+}
+.supporting footer {
+	background: rgba(250, 223, 154, 0.6);
+}
+.page-wrapper {
+	background: rgba(250, 223, 154, 0.6);
+}
+}
+@media screen and (max-device-width:600px)
+{
+body {
+	background-size: 800px;
+}
+.page-wrapper::before {
+	background-size: 800px;
+}
+}
+@media screen and (max-device-width:400px)
+{
+body {
+	background-size: 600px;
+}
+.page-wrapper::before {
+	background-size: 600px;
+}
+}
+.supporting {
+	position: relative; z-index: 1;
+}
+.supporting h3 {
+	margin: 0px; padding: 1em 20px;
+}
+.supporting h3 {
+	box-shadow: inset 0px 0px 18px rgba(70,15,35,0.8); background-image: url("story.gif"); background-attachment: fixed; background-repeat: no-repeat; -webkit-box-shadow: inset 0 0 18px rgba(70, 15, 35, 0.8); -moz-box-shadow: inset 0 0 18px rgba(70, 15, 35, 0.8);
+}
+.supporting footer::before {
+	box-shadow: inset 0px 0px 18px rgba(70,15,35,0.8); background-image: url("story.gif"); background-attachment: fixed; background-repeat: no-repeat; -webkit-box-shadow: inset 0 0 18px rgba(70, 15, 35, 0.8); -moz-box-shadow: inset 0 0 18px rgba(70, 15, 35, 0.8);
+}
+.explanation h3 {
+	background-position: 300px 200px;
+}
+.participation h3 {
+	background-position: -600px 200px;
+}
+.benefits h3 {
+	background-position: -1200px 250px;
+}
+.requirements h3 {
+	background-position: -2200px 250px;
+}
+.supporting footer::before {
+	background-position: -2900px 300px;
+}
+@media screen and (min-width:1360px)
+{
+.explanation h3 {
+	background-position: 500px 100px;
+}
+.participation h3 {
+	background-position: -450px 200px;
+}
+.benefits h3 {
+	background-position: -950px 250px;
+}
+.requirements h3 {
+	background-position: -1980px 250px;
+}
+}
+@media screen and (min-height:800px)
+{
+.explanation h3 {
+	background-position: 300px 350px;
+}
+.participation h3 {
+	background-position: -600px 350px;
+}
+.benefits h3 {
+	background-position: -1200px 350px;
+}
+.requirements h3 {
+	background-position: -2200px 350px;
+}
+}
+@media screen and (min-width:1360px) and (min-height:800px)
+{
+.explanation h3 {
+	background-position: 550px 350px;
+}
+.participation h3 {
+	background-position: -450px 350px;
+}
+.benefits h3 {
+	background-position: -950px 350px;
+}
+.requirements h3 {
+	background-position: -1980px 350px;
+}
+}
+@media screen and (max-width:580px), screen and (max-device-width:580px), screen and (device-width:768px), screen and (device-width:1024px)
+{
+.supporting h3 {
+	min-height: 4em; background-attachment: scroll; background-size: 3375px;
+}
+.supporting footer::before {
+	min-height: 4em; background-attachment: scroll; background-size: 3375px;
+}
+.explanation h3 {
+	background-position: 200px -10px;
+}
+.participation h3 {
+	background-position: -620px 0px;
+}
+.benefits h3 {
+	background-position: -1150px 0px;
+}
+.requirements h3 {
+	background-position: -2080px 5px;
+}
+.supporting footer::before {
+	background-position: -2700px -20px;
+}
+}
+@media screen and (max-width:420px)
+{
+.supporting h3 {
+	background-size: 2625px;
+}
+.supporting footer::before {
+	background-size: 2625px;
+}
+.explanation h3 {
+	background-position: 120px 10px;
+}
+.participation h3 {
+	background-position: -500px 20px;
+}
+.benefits h3 {
+	background-position: -930px 0px;
+}
+.requirements h3 {
+	background-position: -1600px 10px;
+}
+.supporting footer::before {
+	background-position: -2100px -15px;
+}
+}
+.explanation h3 {
+	padding-right: 60%;
+}
+.benefits h3 {
+	padding-right: 60%;
+}
+
+.supporting .participation h3 {
+	text-align: right; padding-left: 55%;
+}
+.supporting .requirements h3 {
+	text-align: right; padding-left: 55%;
+}
+@media all and (max-width:480px)
+{
+.explanation h3 {
+	padding-right: 40%;
+}
+.benefits h3 {
+	padding-right: 40%;
+}
+.supporting .participation h3 {
+	padding-left: 40%;
+}
+.supporting .requirements h3 {
+	padding-left: 40%;
+}
+}
+.participation h3::before {
+	display: block; content: "he requested her ";
+}
+.benefits h3::before {
+	content: "they became friends with ";
+}
+.requirements h3::before {
+	content: "before long, though, ";
+}
+.requirements h3::after {
+	content: " had crept in";
+}
+.supporting div {
+	padding: 0px 0px 3em;
+}
+.supporting p {
+	margin: 0px; padding: 1em 40px 0px;
+}
+.supporting p:nth-child(2) {
+	background: url("letter-flourish.png") no-repeat 0.45em 0.7em; padding-top: 2em;
+}
+div[class^=design] a {
+	padding: 2px 4px;
+}
+div[class^=zen] a {
+	padding: 2px 4px;
+}
+.supporting footer {
+	background: rgb(65, 7, 30); margin: 0px; padding: 20px; text-align: center; font-size: 125%; border-top-color: rgb(136, 0, 68); border-top-width: 6em; border-top-style: solid; position: relative;
+}
+.supporting footer::before {
+	right: 20px; color: rgb(255, 255, 255); display: block; position: absolute;
+}
+.supporting footer::after {
+	right: 20px; color: rgb(255, 255, 255); display: block; position: absolute;
+}
+.supporting footer::before {
+	padding: 1em 20px 0px; left: 0px; top: -6em; height: 5em; text-align: right; right: 0px; content: "... and all because of a ";
+}
+.supporting footer::after {
+	top: -3.7em; content: "fountain kiss ";
+}
+.sidebar .wrapper div {
+	padding: 20px;
+}
+.wrapper h3 {
+	background: url("border.png") no-repeat 50% -120px rgb(91, 10, 42); margin: 0px; padding: 1em 20px;
+}
+.sidebar h3 {
+	margin: -20px -20px 0px; padding: 30px 20px 1em; text-align: center; position: relative; z-index: 1;
+}
+.wrapper li {
+	padding: 3px 1em; color: rgb(197, 126, 136); font-size: 0.75em; font-style: italic;
+}
+.wrapper a {
+	font-size: 1em;
+}
+footer a {
+	font-size: 1em;
+}
+.design-selection li {
+	padding: 4px 1.5em 4px 1em; text-align: right; clear: left;
+}
+.design-selection li:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+.design-name {
+	margin: -1px -4px -4px 0px; text-align: left; padding-right: 0.5em; float: left; max-width: 66%;
+}
+.designer-name {
+	margin-right: -5px;
+}
+.zen-resources ul::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.zen-resources ul {
+	display: inline-block;
+}
+* html .zen-resources ul {
+	height: 1%;
+}
+.zen-resources ul {
+	display: block;
+}
+.zen-resources li {
+	width: 42%; float: left;
+}
+.zen-resources li:nth-child(2n+1) {
+	text-align: right; float: right;
+}
+.zen-resources li.view-css {
+	width: auto; text-align: center; text-indent: 0px; padding-bottom: 9px; float: none; position: relative;
+}
+.view-css::before {
+	top: 0.75em; width: 4em; border-top-color: rgba(136, 0, 68, 0.2); border-top-width: 2px; border-top-style: solid; display: block; position: absolute; content: " ";
+}
+.view-css::after {
+	top: 0.75em; width: 4em; border-top-color: rgba(136, 0, 68, 0.2); border-top-width: 2px; border-top-style: solid; display: block; position: absolute; content: " ";
+}
+.view-css::after {
+	right: 1em;
+}
+.zen-resources .view-css a {
+	padding: 1.5em 0px;
+}
+.design-archives ul {
+	padding: 0px !important;
+}
+@media screen and (min-width:240px)
+{
+.design-archives {
+	text-align: center;
+}
+.design-archives li {
+	margin: 0px; padding: 0px;
+}
+.design-archives a {
+	padding: 1em 0px !important; display: block;
+}
+.design-archives .next {
+	padding: 0px; top: 0px; width: 33%; font-size: 1em; position: absolute; z-index: 3;
+}
+.design-archives .previous {
+	padding: 0px; top: 0px; width: 33%; font-size: 1em; position: absolute; z-index: 3;
+}
+.design-archives .next {
+	right: 0px;
+}
+.design-archives .previous {
+	left: 0px;
+}
+.design-archives .next a {
+	text-transform: none; text-indent: 100%; overflow: hidden; padding-right: 0px; padding-left: 0px; white-space: nowrap;
+}
+.design-archives .previous a {
+	text-transform: none; text-indent: 100%; overflow: hidden; padding-right: 0px; padding-left: 0px; white-space: nowrap;
+}
+.design-archives .next a::before {
+	top: 0.8em; text-indent: 0px; display: block; position: absolute;
+}
+.design-archives .previous a::before {
+	top: 0.8em; text-indent: 0px; display: block; position: absolute;
+}
+.design-archives .next a::before {
+	right: 2.25em; content: "Next";
+}
+.design-archives .previous a::before {
+	left: 2.25em; content: "Prev.";
+}
+.design-archives .next a::after {
+	border-width: 8px 12px; border-style: solid; border-color: transparent; left: 8px; top: 1.4em; margin-top: -2px; display: block; position: absolute; content: " ";
+}
+.design-archives .previous a::after {
+	border-width: 8px 12px; border-style: solid; border-color: transparent; left: 8px; top: 1.4em; margin-top: -2px; display: block; position: absolute; content: " ";
+}
+.design-archives .next a::after {
+	left: auto; right: 8px; border-left-color: rgb(136, 0, 68);
+}
+.design-archives .next a:hover::after {
+	border-left-color: rgb(0, 0, 0);
+}
+.design-archives .previous a::after {
+	border-right-color: rgb(136, 0, 68);
+}
+.design-archives .previous a:hover::after {
+	border-right-color: rgb(0, 0, 0);
+}
+.design-archives .viewall {
+	margin: 0px auto; width: 8em;
+}
+}
+.sidebar .design-selection nav {
+	background: rgba(250, 154, 223, 0.2); margin: 0px -20px -20px; padding: 1em 0px; display: block; position: relative;
+}
+.sidebar .design-archives ul {
+	background: rgba(250, 154, 223, 0.2); margin: 0px -20px -20px; padding: 1em 0px; display: block; position: relative;
+}
+.sidebar .zen-resources ul {
+	background: rgba(250, 154, 223, 0.2); margin: 0px -20px -20px; padding: 1em 0px; display: block; position: relative;
+}
+.design-selection nav ul {
+	position: relative; z-index: 2;
+}
+.design-archives ul li {
+	position: relative; z-index: 2;
+}
+.zen-resources ul li {
+	position: relative; z-index: 2;
+}
+.design-selection h3 {
+	box-shadow: inset 0px 12px 18px -6px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0 12px 18px -6px rgba(0, 0, 0, 0.4); -moz-box-shadow: inset 0 12px 18px -6px rgba(0, 0, 0, 0.4);
+}
+@media screen and (min-width:960px) and (min-height:700px)
+{
+.sidebar .wrapper .design-selection {
+	padding: 0px 2em; border: currentColor; left: 580px; top: 200px; right: 0px; position: fixed;
+}
+.sidebar .wrapper .design-selection::before {
+	background: url("border.png") no-repeat 50% 0px; top: -35px; width: 310px; height: 75px; right: 2em; position: absolute; content: " ";
+}
+.sidebar .wrapper .design-selection::after {
+	background: url("border.png") no-repeat 50% bottom; width: 310px; height: 30px; right: 2em; bottom: -30px; position: absolute; content: " ";
+}
+.sidebar .design-selection h3 {
+	background: url("heart-and-lips.png") no-repeat 90% -440px; margin: 0px 0px 0px auto; padding: 0.5em 19px 0.2em; width: 272px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.sidebar .design-selection nav {
+	background: url("kiss_light.jpg") fixed no-repeat 50% top rgb(252, 238, 198); margin: 0px 0px 0px auto; border: currentColor; max-width: 310px;
+}
+.sidebar .design-archives h3 {
+	box-shadow: inset 0px 12px 18px -6px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0 12px 18px -6px rgba(0, 0, 0, 0.4); -moz-box-shadow: inset 0 12px 18px -6px rgba(0, 0, 0, 0.4);
+}
+}
+@media screen and (min-width:960px) and (max-height:739px) and (min-height:700px)
+{
+.supporting footer::before {
+	background-position: -2900px 180px;
+}
+}
+@media screen and (min-width:960px) and (max-height:779px) and (min-height:740px)
+{
+.supporting footer::before {
+	background-position: -2900px 220px;
+}
+}
+@media screen and (min-width:960px) and (max-height:819px) and (min-height:780px)
+{
+.supporting footer::before {
+	background-position: -2900px 260px;
+}
+}
+@media screen and (min-width:1360px) and (max-height:739px) and (min-height:700px)
+{
+.supporting footer::before {
+	background-position: -2730px 180px;
+}
+}
+@media screen and (min-width:1360px) and (max-height:779px) and (min-height:740px)
+{
+.supporting footer::before {
+	background-position: -2730px 220px;
+}
+}
+@media screen and (min-width:1360px) and (max-height:819px) and (min-height:780px)
+{
+.supporting footer::before {
+	background-position: -2730px 260px;
+}
+}
+@media screen and (min-width:960px) and (min-height:820px)
+{
+.sidebar .wrapper .design-archives {
+	padding: 0px 2em; border: currentColor; left: 580px; top: 510px; right: 0px; position: fixed;
+}
+.sidebar .wrapper .design-selection::after {
+	display: none;
+}
+.sidebar .wrapper .design-archives::after {
+	background: url("border.png") no-repeat 50% bottom; width: 310px; height: 30px; right: 2em; bottom: -30px; position: absolute; content: " ";
+}
+.sidebar .design-archives h3 {
+	background: url("heart-and-lips.png") no-repeat 10% -450px rgb(119, 17, 57); margin: 0px 0px 0px auto; padding: 0.5em 19px 0.2em; width: 272px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.sidebar .design-archives ul {
+	background: url("kiss_light.jpg") fixed no-repeat 50% top rgb(252, 238, 198); margin: 0px 0px 0px auto; max-width: 310px;
+}
+.sidebar .design-selection nav {
+	height: 280px;
+}
+.sidebar .zen-resources h3 {
+	box-shadow: inset 0px 12px 18px -6px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0 12px 18px -6px rgba(0, 0, 0, 0.4); -moz-box-shadow: inset 0 12px 18px -6px rgba(0, 0, 0, 0.4);
+}
+.supporting footer::before {
+	background-position: -2900px 430px;
+}
+}
+@media screen and (min-width:960px) and (max-height:899px) and (min-height:860px)
+{
+.supporting footer::before {
+	background-position: -2900px 470px;
+}
+}
+@media screen and (min-width:960px) and (max-height:939px) and (min-height:900px)
+{
+.supporting footer::before {
+	background-position: -2900px 510px;
+}
+}
+@media screen and (min-width:960px) and (max-height:969px) and (min-height:940px)
+{
+.supporting footer::before {
+	background-position: -2900px 550px;
+}
+}
+@media screen and (min-width:1360px) and (min-height:820px)
+{
+.supporting footer::before {
+	background-position: -2730px 430px;
+}
+}
+@media screen and (min-width:1360px) and (max-height:899px) and (min-height:860px)
+{
+.supporting footer::before {
+	background-position: -2730px 470px;
+}
+}
+@media screen and (min-width:1360px) and (max-height:939px) and (min-height:900px)
+{
+.supporting footer::before {
+	background-position: -2730px 510px;
+}
+}
+@media screen and (min-width:1360px) and (max-height:969px) and (min-height:940px)
+{
+.supporting footer::before {
+	background-position: -2730px 550px;
+}
+}
+.sidebar .wrapper .zen-resources::after {
+	background: url("border.png") no-repeat 50% 4px rgb(91, 10, 42); left: 0px; height: 40px; right: 0px; bottom: -40px; position: absolute; content: " "; box-shadow: inset 0px -12px 18px -6px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0 -12px 18px -6px rgba(0, 0, 0, 0.4); -moz-box-shadow: inset 0 -12px 18px -6px rgba(0, 0, 0, 0.4);
+}
+@media screen and (min-width:960px) and (min-height:960px)
+{
+.sidebar .wrapper .zen-resources {
+	padding: 0px 2em; border: currentColor; left: 580px; top: 610px; right: 0px; position: fixed;
+}
+.sidebar .wrapper .design-archives::after {
+	display: none;
+}
+.sidebar .wrapper .zen-resources::after {
+	background: url("border.png") no-repeat 50% bottom; left: auto; width: 310px; height: 30px; right: 2em; bottom: -30px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.sidebar .zen-resources h3 {
+	background: url("heart-and-lips.png") no-repeat 80% -460px rgb(119, 17, 57); margin: 0px 0px 0px auto; padding: 0.5em 19px 0.2em; width: 272px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.sidebar .zen-resources ul {
+	background: url("kiss_light.jpg") fixed no-repeat 50% top rgb(252, 238, 198); margin: 0px 0px 0px auto; border: currentColor; max-width: 310px;
+}
+.sidebar .design-archives ul {
+	height: 80px;
+}
+.supporting footer {
+	background-position: 50% 50px; padding-bottom: 2em; background-image: url("border.png"); background-repeat: no-repeat;
+}
+.supporting footer::before {
+	background-position: -2900px bottom;
+}
+}
+@media screen and (min-width:1360px) and (min-height:960px)
+{
+.supporting footer::before {
+	background-position: -2730px bottom;
+}
+}
+.design-selection li {
+	transition:0.2s ease-out; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out;
+}
+.wrapper > div a {
+	transition:0.2s ease-out; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out;
+}
+.wrapper > div a {
+	text-shadow: 2px 2px 0px rgba(255,255,255,0.51);
+}
+.wrapper > div a:hover {
+	opacity: 1;
+}
+@media screen and (min-width:1201px)
+{
+.sidebar .design-selection nav {
+	background-size: 100%;
+}
+.sidebar .design-archives ul {
+	background-size: 100%;
+}
+.sidebar .zen-resources ul {
+	background-size: 100%;
+}
+.intro {
+	transition:none; -webkit-transition: none; -moz-transition: none; -o-transition: none;
+}
+}
+@media screen and (min-width:1360px)
+{
+.page-wrapper {
+	margin-left: 160px; max-width: 660px;
+}
+.explanation h3 {
+	padding-right: 70%; padding-left: 30px;
+}
+.benefits h3 {
+	padding-right: 70%; padding-left: 40px;
+}
+.supporting .participation h3 {
+	padding-right: 40px; padding-left: 65%;
+}
+.supporting .requirements h3 {
+	padding-right: 40px; padding-left: 65%;
+}
+.supporting footer::before {
+	padding-right: 40px; padding-left: 65%;
+}
+}
+@media screen and (min-width:1360px) and (max-height:819px)
+{
+.intro {
+	margin-right: 50px; margin-left: 50px;
+}
+}
+@media screen and (min-width:1360px) and (min-height:820px)
+{
+.intro {
+	padding: 74px 130px 76px;
+}
+.preamble {
+	line-height: 1.5; font-size: 1em;
+}
+.preamble h3 {
+	font-size: 1.31em;
+}
+.supporting h3 {
+	font-size: 1.31em;
+}
+.preamble h3 {
+	padding-bottom: 72px; margin-bottom: 36px;
+}
+.supporting footer::after {
+	padding-right: 20px;
+}
+.supporting p {
+	line-height: 1.5; padding-right: 60px; padding-left: 60px;
+}
+.supporting p:nth-child(2) {
+	background-position: 1.65em 1.7em; padding-top: 3em;
+}
+}
+@media screen and (min-width:1360px)
+{
+header[role=banner] {
+	right: 50%; margin-right: -672px;
+}
+.summary {
+	right: 50%; margin-right: -672px;
+}
+h2 {
+	right: 10px;
+}
+#zen-summary p {
+	padding-right: 30px; padding-left: 30px;
+}
+}
+@media screen and (min-width:1360px) and (min-height:700px)
+{
+.sidebar .wrapper .design-selection {
+	right: 50%; margin-right: -672px;
+}
+.sidebar .design-selection h3 {
+	width: 314px;
+}
+.sidebar .wrapper .design-selection nav {
+	max-width: 352px;
+}
+.sidebar .wrapper .design-selection::before {
+	width: 352px !important;
+}
+.sidebar .wrapper .design-selection::after {
+	width: 352px !important;
+}
+}
+@media screen and (min-width:1360px) and (min-height:820px)
+{
+.sidebar .wrapper .design-archives {
+	right: 50%; margin-right: -672px;
+}
+.sidebar .design-archives h3 {
+	width: 314px;
+}
+.sidebar .wrapper .design-archives ul {
+	max-width: 352px;
+}
+.sidebar .wrapper .design-archives::after {
+	width: 352px !important;
+}
+}
+@media screen and (min-width:1360px) and (min-height:960px)
+{
+.sidebar .wrapper .zen-resources {
+	right: 50%; margin-right: -672px;
+}
+.sidebar .zen-resources h3 {
+	width: 314px;
+}
+.sidebar .wrapper .zen-resources ul {
+	max-width: 352px;
+}
+.sidebar .wrapper .zen-resources::after {
+	width: 352px !important;
+}
+}

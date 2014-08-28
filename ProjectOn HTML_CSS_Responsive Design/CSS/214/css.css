@@ -1,0 +1,18 @@
+@font-face {
+	font-family: Julius Sans One;
+	src: local("Julius Sans One"), local("JuliusSansOne-Regular"), url(http://fonts.gstatic.com/s/juliussansone/v4/iU65JP9acQHPDLkdalCF7luTgT7He_T1DF6rp02aEO4.eot) format("embedded-opentype"), url(http://fonts.gstatic.com/s/juliussansone/v4/iU65JP9acQHPDLkdalCF7q3fkYX5z1QtDUdIWoaaD_k.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Libre Baskerville;
+	src: local("Libre Baskerville"), local("LibreBaskerville-Regular"), url(http://fonts.gstatic.com/s/librebaskerville/v3/pR0sBQVcY0JZc_ciXjFsK2F7WC2UG4aaA4SZk0HPHJg.eot) format("embedded-opentype"), url(http://fonts.gstatic.com/s/librebaskerville/v3/pR0sBQVcY0JZc_ciXjFsK5Rby8KfwQsaipLBqMCVNtM.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Libre Baskerville;
+	src: local("Libre Baskerville Italic"), local("LibreBaskerville-Italic"), url(http://fonts.gstatic.com/s/librebaskerville/v3/QHIOz1iKF3bIEzRdDFaf5ZBQH13TilI9-e620I2pL1I.eot) format("embedded-opentype"), url(http://fonts.gstatic.com/s/librebaskerville/v3/QHIOz1iKF3bIEzRdDFaf5dgliI79_bmRXH6crmREtCo.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}

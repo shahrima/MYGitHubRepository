@@ -1,0 +1,12 @@
+@font-face {
+	font-family: Montserrat;
+	src: local("Montserrat-Bold"), url(http://fonts.gstatic.com/s/montserrat/v5/IQHow_FEYlDC4Gzy_m8fcmzklk6MJbhg7BmBP42CjCQ.eot) format("embedded-opentype"), url(http://fonts.gstatic.com/s/montserrat/v5/IQHow_FEYlDC4Gzy_m8fcgFhaRv2pGgT5Kf0An0s4MM.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Ultra;
+	src: local("Ultra"), url(http://fonts.gstatic.com/s/ultra/v8/eA6gNSBpjc5LWbTdvK7p8Q.eot) format("embedded-opentype"), url(http://fonts.gstatic.com/s/ultra/v8/Uwyb9czCiEZ7UnGAgIR6JA.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}

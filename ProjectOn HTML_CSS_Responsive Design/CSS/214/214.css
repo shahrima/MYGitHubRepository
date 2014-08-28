@@ -1,0 +1,730 @@
+@import url( http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic );
+@font-face {
+	font-family: verdemoderna;
+	src: url(verdemoderna.eot?#iefix) format("embedded-opentype"), url(verdemoderna.woff) format("woff"), url(verdemoderna.ttf) format("truetype"), url(verdemoderna.svg#verdemoderna) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+html {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+body {
+	background: rgb(255, 255, 255); color: rgb(50, 80, 80); font-family: "Libre Baskerville", sans-serif; font-size: 80%;
+}
+a {
+	transition:0.25s ease-out; color: rgb(13, 139, 161); text-decoration: none; -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out;
+}
+a:visited {
+	color: rgb(26, 89, 82);
+}
+a:hover {
+	color: rgb(5, 153, 194); text-decoration: underline;
+}
+a:focus {
+	color: rgb(5, 153, 194); text-decoration: underline;
+}
+abbr {
+	border: currentColor; text-transform: uppercase; letter-spacing: 0.01em; font-size: 0.9em;
+}
+header {
+	background-position: 0px 0px, 0px 0px, -5px -25px, 0px 50%; padding: 20px 0px 70px; height: 230px; text-align: center; background-image: url("contours.png"), url("noise.png"), url("gridlines.png"), url("huntington.jpg"); background-attachment: fixed, fixed, fixed, scroll; background-repeat: repeat, repeat, repeat, no-repeat; background-size: auto, auto, auto, cover; background-origin: padding-box; background-clip: border-box; background-color: rgb(45, 99, 96);
+}
+h1 {
+	margin: 0px; padding: 0px 10%; color: rgb(255, 255, 255); font-weight: normal;
+}
+h2 {
+	margin: 0px; padding: 0px 10%;  font-weight: normal;
+}
+h1 {
+	text-transform: uppercase; padding-top: 0px; padding-bottom: 5px; font-family: "Julius Sans One", sans-serif; font-size: 4.2em; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+h1::before {
+	background: url("enso.svg") no-repeat 0% 0% / 100%; margin: -20px 20px 0px 0px; top: 20px; width: 80px; height: 80px; display: inline-block; position: relative; content: ""; opacity: 0.6;
+}
+h2 {
+	 padding-top: 0px; padding-bottom: 5px; font-size: 1.6em; font-style: italic; border-top-width: medium; border-top-style: none; display: block;
+}
+h2::before {
+	padding: 5px; content: " ";
+}
+h3 {
+	margin: 2em 0px 0px; color: rgb(46, 72, 76); text-transform: uppercase; font-family: "Julius Sans One", sans-serif; font-size: 2.8em; font-weight: normal;
+}
+p {
+	margin: 0.75em 0px; line-height: 2;
+}
+.page-wrapper {
+	position: relative;
+}
+.summary {
+	margin: 0px auto; width: 80%;
+}
+.preamble {
+	margin: 0px auto; width: 80%;
+}
+.supporting h3 {
+	width: 80%; margin-right: auto; margin-left: auto;
+}
+.supporting p {
+	width: 80%; margin-right: auto; margin-left: auto;
+}
+.summary {
+	padding-top: 1em;
+}
+aside .wrapper li {
+	color:Red;
+}
+.intro a {
+	margin: -1px -10px -1px -6px; padding: 1px 10px 1px 32px; border-radius: 1px; color: rgb(128, 155, 126); text-transform: uppercase; font-family: "Julius Sans One", sans-serif; display: inline-block; position: relative; -webkit-border-radius: 1px; -moz-border-radius: 1px;
+}
+.intro a:visited {
+	margin: -1px -10px -1px -6px; padding: 1px 10px 1px 32px; border-radius: 1px; color: rgb(128, 155, 126); text-transform: uppercase; font-family: "Julius Sans One", sans-serif; display: inline-block; position: relative; -webkit-border-radius: 1px; -moz-border-radius: 1px;
+}
+.intro a:hover {
+	background: rgb(61, 138, 159); color: rgb(255, 255, 255); text-decoration: none; z-index: 2;
+}
+.intro a:focus {
+	background: rgb(61, 138, 159); color: rgb(255, 255, 255); text-decoration: none; z-index: 2;
+}
+.intro a::before {
+	background: rgb(217, 225, 205); padding: 2px; transition:0.25s ease-out; left: 8px; top: 6px; color: rgb(169, 185, 149); text-transform: none; line-height: 1; text-indent: 0px; font-family: "verdemoderna"; font-size: 20px; font-variant: normal; font-weight: normal; display: inline-block; position: absolute; content: "D"; -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px; speak: none; -webkit-font-smoothing: antialiased;
+}
+.intro a:hover::before {
+	background: rgb(53, 125, 147); color: rgb(255, 255, 255);
+}
+div.Keyboard-Shortcuts {
+	background-image: url("contours-opaque.png"), url("gridlines-opaque.png"), url("bamboo.png"); background-attachment: scroll, scroll, fixed; background-repeat: repeat, repeat, no-repeat; background-size: auto, auto, cover; background-color: rgba(138, 188, 159, 0.5);
+}
+div.benefits {
+	background-image: url("contours-opaque.png"), url("gridlines-opaque.png"), url("bamboo.png"); background-attachment: scroll, scroll, fixed; background-repeat: repeat, repeat, no-repeat; background-size: auto, auto, cover; background-color: rgba(138, 188, 159, 0.5);
+}
+div.Keyboard-Shortcuts {
+	padding: 3em 0px; margin-top: 3em;
+}
+div.benefits {
+	padding-bottom: 3em; margin-bottom: 3em;
+}
+div.Keyboard-Shortcuts h3 {
+	margin-top: 0px;
+}
+div.benefits h3 {
+	margin-top: 0px;
+}
+div.Keyboard-Shortcuts p {
+	margin-bottom: 0px;
+}
+div.benefits p {
+	margin-bottom: 0px;
+}
+.sidebar {
+	background: rgb(237, 244, 240);
+}
+.sidebar h3 {
+	display: none;
+}
+.sidebar a {
+	color: rgb(96, 116, 118); text-decoration: none;
+}
+.sidebar a:hover {
+	color: rgb(73, 150, 142);
+}
+.sidebar a:focus {
+	color: rgb(73, 150, 142);
+}
+.sidebar ul {
+	list-style: none; margin: 0px; padding: 0px; overflow: hidden;
+}
+.design-selection ul {
+	margin: 0px;
+}
+.zen-resources ul {
+	margin: 0px;
+}
+.design-selection li {
+	padding: 1.5em 10%; width: 50%; color: rgb(192, 202, 195); font-style: italic; border-top-color: rgb(217, 227, 220); border-top-width: 1px; border-top-style: solid; float: left;
+}
+.zen-resources li {
+	padding: 1.5em 10%; width: 50%; color: rgb(192, 202, 195); font-style: italic; border-top-color: rgb(217, 227, 220); border-top-width: 1px; border-top-style: solid; float: left;
+}
+.design-selection li:hover {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+}
+.design-selection li:focus {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+}
+.design-selection li:nth-child(2n+1) {
+	clear: left;
+}
+.zen-resources li:nth-child(2n+1) {
+	clear: left;
+}
+.design-selection .design-name {
+	text-transform: uppercase; font-family: "Julius Sans One", sans-serif; font-size: 1.5em; font-style: normal; margin-bottom: 0.20em; display: block;
+}
+.zen-resources a {
+	text-transform: uppercase; font-family: "Julius Sans One", sans-serif; font-size:  1.5em; font-style: normal; margin-bottom: 0.20em; display: block;
+}
+li.viewall a {
+	text-transform: uppercase; font-family: "Julius Sans One", sans-serif; font-size:  1.5em; font-style: normal; margin-bottom: 0.20em; display: block;
+}
+.design-selection h3 {
+	display: none;
+}
+.design-selection .designer-name {
+	color: rgb(97, 104, 87); font-size: 1.9em; font-style: normal;
+}
+.design-archives {
+	background: rgba(255, 255, 255, 0.2); top: 160px; width: 100%; height: 70px; right: 0px; position: absolute;
+}
+.design-archives h3 {
+	display: none;
+}
+.design-archives ul {
+	margin: 0px;
+}
+.design-archives li {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; top: 0px; position: absolute;
+}
+.design-archives li.viewall {
+	padding: 0px 71px; left: 0px; top: 0px; width: 100%; line-height: 50px;
+}
+.previous {
+	left: 0px; z-index: 3;
+}
+.next {
+	left: 0px; z-index: 3;
+}
+.next {
+	left: auto; right: 0px;
+}
+.design-archives a {
+	color: rgba(255, 255, 255, 0.65);
+}
+.design-archives a:visited {
+	color: rgba(255, 255, 255, 0.65);
+}
+.design-archives a:hover {
+	color: rgb(255, 255, 255);
+}
+.design-archives a:focus {
+	color: rgb(255, 255, 255);
+}
+.design-archives .previous a {
+	width: 70px; height: 70px; text-indent: 100%; overflow: hidden; text-decoration: none; display: block; white-space: nowrap;
+}
+.design-archives .next a {
+	width: 70px; height: 70px; text-indent: 100%; overflow: hidden; text-decoration: none; display: block; white-space: nowrap;
+}
+.design-archives .viewall a {
+	padding: 12px 0px 0px; width: 100%; text-align: center; z-index: 2; min-height: 70px;
+}
+.design-archives a::before {
+	left: 0px; width: 70px; height: 70px; text-align: center; text-transform: none; line-height: 70px; text-indent: 0px; font-family: "verdemoderna"; font-size: 50px; font-variant: normal; font-weight: normal; position: absolute; speak: none; -webkit-font-smoothing: antialiased;
+}
+.design-archives .viewall a:hover {
+	box-shadow: inset 0px 0px 10px rgba(255,255,255,0.1); background-color: rgba(255, 255, 255, 0.25);
+}
+.design-archives .viewall a:focus {
+	box-shadow: inset 0px 0px 10px rgba(255,255,255,0.1); background-color: rgba(255, 255, 255, 0.25);
+}
+.design-archives .viewall a:active {
+	box-shadow: inset 0px 0px 10px rgba(255,255,255,0.1); background-color: rgba(255, 255, 255, 0.25);
+}
+.design-archives a:hover::before {
+	box-shadow: inset 0px 0px 10px rgba(255,255,255,0.1); background-color: rgba(255, 255, 255, 0.25);
+}
+.design-archives a:focus::before {
+	box-shadow: inset 0px 0px 10px rgba(255,255,255,0.1); background-color: rgba(255, 255, 255, 0.25);
+}
+.design-archives a:active::before {
+	box-shadow: inset 0px 0px 10px rgba(255,255,255,0.1); background-color: rgba(255, 255, 255, 0.25);
+}
+.design-archives .previous a::before {
+	content: "<";
+}
+.design-archives .next a::before {
+	content: ">";
+}
+.zen-resources {
+	overflow: hidden; background-image: url("bamboo.png"); background-color: rgba(138, 188, 159, 0.5);
+}
+.zen-resources li {
+	font-style: normal; border-top-color: rgb(160, 185, 173); border-top-width: 1px; border-top-style: solid;
+}
+.zen-resources li:last-child {
+	width: auto; border-bottom-color: rgb(160, 185, 173); border-bottom-width: 1px; border-bottom-style: solid; float: none;
+}
+.requirements p:nth-child(5) {
+	padding-bottom: 2em;
+}
+.supporting .requirements {
+	width: 100%; padding-right: 0px; padding-left: 0px; clear: both; float: none;
+}
+.supporting .requirements a {
+	text-decoration: none;
+}
+.supporting .requirements a:hover {
+	text-decoration: underline;
+}
+.supporting .requirements a:focus {
+	text-decoration: underline;
+}
+.supporting .requirements h3 {
+	padding-top: 0px;
+}
+.requirements p:last-child {
+	background-position: 0px 0px, -5px -25px, 0px 0px, 0px 50%; margin: 0px; padding: 1em 12%; width: auto; text-align: center; color: rgba(255, 255, 255, 0.4); font-size: 3em; font-style: italic; background-image: url("contours.png"), url("gridlines.png"), url("noise.png"), url("koi.jpg"); background-attachment: fixed, fixed, fixed, scroll; background-repeat: repeat, repeat, repeat, no-repeat; background-size: auto, auto, auto, cover; background-origin: padding-box; background-clip: border-box; background-color: rgb(62, 93, 103);
+}
+.requirements p:last-child a {
+	color: rgba(255, 255, 255, 0.7); font-style: normal;
+}
+footer {
+	background: rgb(19, 67, 71); padding: 3em 10%; text-align: center; color: rgb(255, 255, 255); clear: both;
+}
+footer a {
+	margin: 0px 0.5em; padding: 40px 0px 0px; transition:color 0.25s ease-out, box-shadow 0.25s ease-out; width: 40px; height: 40px; color: rgba(255, 255, 255, 0.5); overflow: hidden; display: inline-block; position: relative; -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out; -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+}
+footer a:hover {
+	color: rgba(255, 255, 255, 0.3); text-decoration: none;
+}
+footer a:focus {
+	color: rgba(255, 255, 255, 0.3); text-decoration: none;
+}
+footer a:visited {
+	color: rgba(255, 255, 255, 0.2);
+}
+footer a::before {
+	left: 0px; top: 3px; text-transform: none; line-height: 1; text-indent: 0px; overflow: visible; font-family: "verdemoderna"; font-size: 36px; font-variant: normal; font-weight: normal; display: block; position: absolute; speak: none; -webkit-font-smoothing: antialiased;
+}
+footer a.zen-validate-html::before {
+	content: "5";
+}
+footer a.zen-validate-html:hover::before {
+	content: "%";
+}
+footer a.zen-validate-html:focus::before {
+	content: "%";
+}
+footer a.zen-validate-css::before {
+	content: "3";
+}
+footer a.zen-validate-css:hover::before {
+	content: "#";
+}
+footer a.zen-validate-css:focus::before {
+	content: "#";
+}
+footer a.zen-license::before {
+	content: "c";
+}
+footer a.zen-license:hover::before {
+	content: "C";
+}
+footer a.zen-license:focus::before {
+	content: "C";
+}
+footer a.zen-accessibility::before {
+	content: "a";
+}
+footer a.zen-accessibility:hover::before {
+	content: "A";
+}
+footer a.zen-accessibility:focus::before {
+	content: "A";
+}
+footer a.zen-github::before {
+	content: "g";
+}
+footer a.zen-github:hover::before {
+	content: "G";
+}
+footer a.zen-github:focus::before {
+	content: "G";
+}
+@media only screen and (max-width:600px)
+{
+.summary p:last-child {
+	display: none;
+}
+h1 {
+	font-size: 4.5em; margin-top: 30px;
+}
+h1::before {
+	width: 50px; height: 50px;
+}
+h2::before {
+	padding: 0px;
+}
+.requirements p:last-child {
+	padding: 1em 6%;
+}
+}
+@media only screen and (max-width:500px)
+{
+header {
+	height: 250px; padding-top: 0px;
+}
+h1 {
+	margin: 0px;
+}
+h1::before {
+	margin: 0px 0px 0px -25px; padding: 0px 0px 35px; left: 50%; width: 50px; height: 50px; display: block;
+}
+h2::before {
+	padding: 0px;
+}
+.design-archives {
+	top: 180px;
+}
+.design-selection li {
+	padding: 2em 5%;
+}
+.zen-resources li {
+	padding: 1em 5%;
+}
+footer a {
+	margin: 0px 0.5em;
+}
+}
+@media only screen and (min-width:320px),screen and (max-width:400px)
+{
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 4.3em;
+}
+.design-selection li {
+	width: 100%; float: none;
+}
+.zen-resources li {
+	width: 100%; float: none;
+}
+.requirements p:last-child {
+	font-size: 2.4em;
+}
+footer {
+	padding: 2em 5%;
+}
+footer a {
+	margin: 0px 0.5em; padding: 35px 0px 0px; width: 35px; height: 35px;
+}
+footer a::before {
+	font-size: 30px;
+}
+.explanation h3 {
+	width: 90%;
+}
+.explanation p  {
+	width: 100%;
+	font-size:15px;
+}
+.explanation  li {
+	width: 100%;
+	font-size:15px;
+}
+}
+@media only screen and (max-width:1132px)
+{
+header {
+	border-top-color: rgba(19, 67, 71, 0.9); border-top-width: 10px; border-top-style: solid;
+}
+p {
+	font-size: 1.2em;
+}
+li {
+	font-size: 1.2em;
+}
+}
+@media only screen and (max-width:1150px) and (min-width:401px)
+{
+.requirements p:last-child {
+	padding-top: 2em; padding-bottom: 2em;
+}
+footer {
+	padding: 3em 0px;
+}
+footer a {
+	margin: 0px 2em; padding: 52px 0px 0px; width: 52px; height: 52px;
+}
+footer a::before {
+	font-size: 50px;
+}
+.explanation h3 {
+	width: 80%;
+}
+.explanation h2 {
+	width: 80%;
+}
+.explanation p  {
+	width: 80%;
+	font-size:70%;
+}
+.explanation  li {
+	width: 80%;
+	font-size:70%;
+}
+
+}
+@media only screen and (max-width:1150px) and (min-width:601px)
+{
+.summary {
+	padding: 1em 0% 1em 2%; width: 90%;float: right;font-size:100%;
+}}
+
+@media only screen and (min-width:1132px)
+{
+body {
+	background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 66%, rgb(229, 237, 232) 66%, rgb(229, 237, 232) 100%); font-size: 100%;
+}
+header {
+	padding: 0px 10%; width: 100%; height: 310px; text-align: left; vertical-align: middle; border-top-color: rgba(19, 67, 71, 0.8); border-top-width: 12px; border-top-style: solid; box-shadow: inset 0px 0px 100px rgba(255,255,255,0.3);
+}
+header::before {
+	background: rgba(0, 39, 43, 0.2); left: 0px; top: 9px; width: 100%; height: 7px; display: block; position: absolute; z-index: 3; content: " ";
+}
+header::after {
+	background: rgba(0, 39, 43, 0.2); left: 0px; top: 9px; width: 100%; height: 7px; display: block; position: absolute; z-index: 3; content: " ";
+}
+header::after {
+	background: rgba(0, 39, 43, 0.075); top: 306px; height: 4px;
+}
+h1 {
+	margin: 15px 0px 0px; padding: 60px 0px 5px; display: inline-block; position: relative;
+}
+h1::before {
+	background: url("enso.svg") 0% 0% / 100%; margin: -65px 40px 0px 0px; animation:koan 36000s infinite alternate; top: 65px; width: 125px; height: 125px; display: inline-block; position: relative; content: ""; opacity: 0.6; -webkit-animation: koan 36000s infinite alternate; -moz-animation: koan 36000s infinite alternate;
+}
+h2 {
+	margin: 0px; padding: 0px 0px 30px 50px; 
+}
+p {
+	font-size: 3em;
+}
+nav {
+	display: inline;
+	color:Maroon;
+}
+.supporting {
+	display: inline;
+}
+.summary {
+	padding: 1em 5% 1em 10%; width: 70%; clear: left; float: left;
+}
+.preamble {
+	padding: 1em 5% 1em 10%; width: 66%; clear: left; float: left;
+}
+.supporting div {
+	padding: 1em 5% 1em 10%; width: 66%; clear: left; float: left;
+}
+.requirements h3 {
+	padding: 1em 5% 1em 10%; width: 66%; clear: left; float: left;
+}
+.requirements p {
+	padding: 1em 5% 1em 10%; width: 66%; clear: left; float: left;
+}
+.explanation h3 {
+	width: 100%;
+}.explanation h2 {
+	width: 90%;
+}
+.explanation p {
+	width: 90%;
+	font-size:80%;
+}
+.Keyboard-Shortcuts h3 {
+	width: 100%;
+}
+.Keyboard-Shortcuts p {
+	width: 100%;
+}
+.benefits h3 {
+	width: 100%;
+}
+.benefits p {
+	width: 100%;
+}
+.summary {
+	padding-top: 3.25em;
+}
+.requirements h3 {
+	margin: 0px; padding-bottom: 0px;
+}
+.requirements p {
+	margin: 0px; padding-bottom: 0px;
+}
+div.Keyboard-Shortcuts {
+	margin: 0px; width: 100%; padding-right: 38%; padding-left: 10%;
+}
+div.benefits {
+	margin: 0px; width: 100%; padding-right: 38%; padding-left: 10%;
+}
+div.Keyboard-Shortcuts {
+	padding-top: 4em;
+}
+div.requirements {
+	padding-top: 4em;
+}
+div.explanation {
+	padding-bottom: 4em;
+}
+div.benefits {
+	padding-bottom: 4em;
+}
+.requirements p:nth-child(5) {
+	padding-bottom: 4em;
+}
+.intro h3 {
+	margin-top: 0px;
+}
+.supporting h3 {
+	margin-top: 0px;
+}
+.intro p:last-child {
+	margin-bottom: 0px;
+}
+.supporting p:last-child {
+	margin-bottom: 0px;
+}
+.requirements p:last-child {
+	padding-top: 3em; padding-bottom: 3em; box-shadow: inset 0px 0px 100px rgba(255,255,255,0.3);
+}
+.design-selection {
+	margin: 0px; padding: 0px 0px 20px; top: 360px; width: 33.3%; right: 0px; overflow: visible; position: absolute;
+}
+.zen-resources {
+	margin: 0px; padding: 0px 0px 20px; top: 360px; width: 33.3%; right: 0px; overflow: visible; position: absolute;
+}
+.sidebar li {
+	margin: 0px 29.4% 0px 14.7%; width: auto; padding-right: 0px; padding-left: 0px; float: none;
+}
+.design-selection li:first-child {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.design-selection li:hover {
+	
+}
+.design-selection li:focus {
+	
+}
+.design-archives {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 66%, rgba(33, 84, 95, 0.3) 66%, rgba(33, 84, 95, 0) 100%); left: 0px; top: 0px; width: 100%; height: 310px; position: absolute; z-index: 2;
+}
+.design-archives nav {
+	top: 120px; width: 32%; right: 1%; display: block; position: absolute;
+}
+.design-archives li {
+	margin: 0px;
+}
+.design-archives .viewall a {
+	background: rgba(255, 255, 255, 0.1); text-decoration: none;
+}
+.design-archives a::before {
+	background: rgba(255, 255, 255, 0.1); text-decoration: none;
+}
+.design-archives .viewall a:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.design-archives a:hover::before {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.zen-resources {
+	top: 1310px; width: 34%; right: 0px; position: absolute;
+}
+.zen-resources h3 {
+	display: none;
+}
+.zen-resources ul {
+	margin: 0px 29.4% 0px 14.7%; width: 55.9%;
+}
+.zen-resources li {
+	margin: 0px; padding: 1.5em 0px 1.25em;
+}
+}
+@media only screen and (min-width:1150px)
+{
+footer a {
+	margin: 0px 3em; padding: 76px 0px 0px; width: 76px; height: 76px;
+}
+footer a::before {
+	font-size: 75px;
+}
+}
+@media only screen and (min-width:1120px)
+{
+.zen-resources {
+	top: 1490px;
+}
+}
+@media only screen and (min-width:1240px)
+{
+.zen-resources {
+	top: 1460px;
+}
+}
+@media only screen and (min-width:1260px)
+{
+.zen-resources {
+	top: 1420px;
+}
+}
+@media only screen and (min-width:1320px)
+{
+.zen-resources {
+	top: 1390px;
+}
+}
+@media only screen and (min-width:1370px)
+{
+.zen-resources {
+	top: 1360px;
+}
+}
+@media only screen and (min-width:1520px)
+{
+.zen-resources {
+	top: 1330px;
+}
+}
+@media only screen and (min-width:1812px)
+{
+.zen-resources {
+	top: 1300px;
+}
+}
+@media only screen and (min-width:1848px)
+{
+.zen-resources {
+	top: 1270px;
+}
+}
+@media only screen and (min-width:2015px)
+{
+.zen-resources {
+	top: 1240px;
+}
+}
+@media only screen and (min-width:2115px)
+{
+.zen-resources {
+	top: 1210px;
+}
+}
+@media not all, not all, not all, not all, not all
+{
+header {
+	background-image: url("contours@2x.png"), url("noise.png"), url("gridlines.png"), url("huntington.jpg"); background-size: 50% auto, auto, auto, cover;
+}
+.requirements p:last-child {
+	background-image: url("contours@2x.png"), url("gridlines.png"), url("noise.png"), url("koi.jpg"); background-size: 50% auto, auto, auto, cover;
+}
+.design-archives nav {
+	width: 29%; right: 3%;
+}
+}
